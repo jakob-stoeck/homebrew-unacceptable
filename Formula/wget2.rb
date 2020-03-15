@@ -1,8 +1,9 @@
 class Wget2 < Formula
   desc "Multithreaded metalink/file/website downloader"
   homepage "https://gitlab.com/gnuwget/wget2/"
-  url "https://alpha.gnu.org/gnu/wget/wget2-1.99.1.tar.gz"
-  sha256 "8d9b0b0897ff9623169db47c656d09007677f8d51de5f5cd3652258aab8b4dde"
+  url "https://ftp.gnu.org/gnu/wget/wget2-1.99.2.tar.gz"
+  mirror "https://ftpmirror.gnu.org/wget/wget2-1.99.2.tar.gz"
+  sha256 "cbc48f55fa22ed2acbccf032c208c133cc59c7432cda8518a4992eb5882b6563"
 
   depends_on "gettext"
   depends_on "gnutls"
